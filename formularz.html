@@ -88,22 +88,69 @@ ul. Nieznana 3
 40-001 Katowice
 Polska
 </textarea>
+</br></br></br>
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	<textarea name="nazwa_pola"cols="10"rows="10"style="width:220px;height:60px;">
+	Wprowadź swój adres
+	</textarea>
+	</br></br></br>
+	<input type="reset" name="reset"> przycisk resetowania</input>
+	</br>
+	<button type="button" name="opuść">opuść strone</button>
+	</br>
+	<button type="button"  name="kupuj teraz"value="kupuj teraz" onclick="alert('Zakupiono')">Kupuj</button>
+	</br>
+	<p>WYKSZTAŁCENIE:</p>
+	<p>Podstawowe[skrót ALT+P]<input accesskey="P" type="radio" value="pods" name="wy" size="20"></input></p>
+	<p>Średnie[skrót ALT+S]<input accesskey="S" type="radio" value="sred" name="wy" size="20"></input></p>
+	<p>Wyższe[skrót ALT+w]<input accesskey="W" type="radio" value="wyzsz" name="wy" size="20"></input></p>
+	</br>
+	<button type="button" name="obrazek"><img src="foty/gekon.jpg" height="100px"width="100px"></button>
+	</br>Autofocus<input name="adres" type="text" autofocus/>
+	</br>
+	Autocomplete<input name="adres" type="text" autocomplete="on"/></br>
+	Lista rozwijalna<input list="blok" name="jezyk"/>
+	<datalist id="blok">
+	<option>Francuski</option>
+	<option>Angielski</option>
+	</datalist>
+	<input type="submit"></br>
+	Sprawdza wypełnienie pola<input type="text" required></br>
+	<input type="email">-email</br>
+	<input type="url">-URL</br>
+	<input type="number"min="1"max="2136"value="2">-liczba całkowita z podanego przedziału</br>
+	<input type="date" value="1989-08-08">-Wprowadzanie daty</br>
+	<input type="color" value="1.1.1">-Kolor</br>
+	Lista rozwijalna<input list="blok1" name="jezyk"/>
+	<datalist id="blok1">
+			<option value="ie">Internet Explorer
+			<option value="chrome">Chrome	
+			<option value="opera">OPERA	
+			<option value="firefox">FIREFOX
+			<option value="safari">SAFARI
+	</datalist>
+	<input type="submit"></br>
+		
+	<input type="range" name="point" min="0" max="2136">-suwak
+	</form>
+	<form oninput="x.value=parselnt(a.value)+parselnt(b.value)>
+	0<input type="range"id="a" name="a" value="50">
+	100+<input type="number" id="b" name="b" value="50">
+	= <output name="x" for="a b"></output></br></br>
+	<input type="submit"></br>
+	<input type="text" value="john"disabled />
 	</form>
 	
 	
 	
 	
 	
+	
+	
+	
+
+	
+
 	
 	
 			
