@@ -25,9 +25,75 @@
 		
 		
 	</div>
-	<div style="float:right;width:70%">
+	<div style="float:right;width:70%;background-color:#a4dded">
+	<form>
+	<fieldset>
+	<legend><h2>Adres</h2></legend>
+	<input name="1" type="radio">podstawowy
+	<input name="1" type="radio">do wysyłki
+	<input name="1" type="radio">korespondencyjny
+	<input name="1" type="radio">odbiorcy</br></br>
+	
+		Nazwa  <input value="Sklep wielobranżowy poligraf" type="text"></br></br>
+		Ulica i numer  <input type="text"></br></br>
+		Kod pocztowy  <input value="40-671"type="text"></br></br>
+		Miejscowość  <input value="Katowice" type="text"></br></br>
+		Telefon  <input value="+48 601 601 601" type="text"></br></br>
+		E-mail  <input value="info@insert.com" type="text"></br></br>
+		</fieldset>
+		
+	<fieldset>
+	<legend><h2>Wysyłka</h2></legend>
+	Przesyłka(ekon/prioryt/ekspr) <select name="paczk"size="1">
+		
+		<option value="eko">Ekonomiczna
+		<option value="prio">Priorytetowa
+		<option value="eks">Eskpresowa
+		</select></br></br>
+			Waga(g)<input value="1000" type="text"size="4"></br></br>
+		Gabaryt<select name="gab"size="4">
+			<option value="s">S(28x8x64cm)
+			<option value="m">M(38x19x64cm)
+			<option value="l">L(41x38x64cm)
+			<option value="xl">XL(60x60x70cm)
+		
+		
+		</select></br></br>
+	Wartość<input value="0,00"type="text"size="5">zł</br></br>
+	Nr rachunku<input type="text"size="50"></br></br>
+	Data wysyłki<input type="date"></br></br>
+	</fieldset>
+	</br></br>
+	
+	
+	<fieldset>
+	
+		<input type="checkbox">Z=Żadanie zwrotu/odesłania</br>
+		<input type="checkbox">R=Polecenie</br>
+		<input type="checkbox">O=Potwierdzenie odbioru</br>
+		<input type="checkbox">W=Zadeklarowanie wartości</br>
+		<input type="checkbox">S=Sprawdzenie zawartosci</br>
+		<input type="checkbox">K=Ostrożnie</br>
+		
+		
+	<h3>Uwagi:</h3>
+	<textarea name="Uwagi" cols="40" rows="8">
+	Prosze o wpisanie wszelkich uwag:
+	<--/Przesyłka:
+		Ekonomiczna
+		Priorytetowa
+		Ekspresowa/
+	</textarea></br>
+		</fieldset>
+		</br></br>
+		</form>
+		<button style="font:20pt arial"type="Submit"name="wysl" onclick="alert('wysłano')">Wyślij</button></br></br>
+		<button style="font:20pt arial"type="button"name="wysl"onclick="alert('Anulowano')">Anuluj</button></br>
+	
 	
 		
+	
+	
 	</div>
 	<div style="background-color:grey;clear:both"><center>&copy;D.S,September2024</center><div>
 </body>
