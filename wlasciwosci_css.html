@@ -34,6 +34,7 @@ h2{
 	word-spacing:15px;
 	text-align:left;
 	text-decoration:underline;
+	cursor:pointer;
 	}
 h1{
 	line-height:100%;
@@ -53,46 +54,6 @@ h4{
 	text-indent:50px;
 	letter-spacing:5px;
 	}
-	a.t1{
-				color:black;
-				background-color:fuchsia;
-				border:3px black ;
-				border-style:solid;
-				border-radius:5px;;
-		}
-		a.t1:hover{
-			color:yellow;
-			background-color:green;
-			border-style:dotted;
-			border-color:yellow;
-		}
-		a.t1:active{
-			color:silver;
-			background-color:black;
-			border-style:dashed;
-			border-color:silver;
-		}
-		a.t2{
-				color:black;
-				background-color:yellow;
-				border:3px black ;
-				border-style:double;
-				border-radius:5px;
-				background-clip:content-box;
-				padding:10px;
-		}
-		a.t2:hover{
-			color:aqua;
-			background-color:green;
-			border-style:outset;
-			border-color: aqua;
-		}
-		a.t2:active{
-			color:white;
-			background-color:red;
-			border-color: white;
-			border-style:dashed;
-		}
 body{
 	background:url(foty/kot1.gif);
 	background-attachment:local;
@@ -191,11 +152,97 @@ h2#ramka3b{
 	border:50px solid;
 	border-image:URL(foty/kot1.gif)20 round;
 	}
+ul.t1{
+	list-style-type:circle;
+	list-style-position:outside;
+	color:purple;
+	font-family:Arial;
+	}
+ol.t1{
+	list-style-type:upper-alpha;
+	list-style-position:inside;
+	color:green;
+	font-family:Helvetica;
+	}
+ol.t2{
+	list-style-image:Url(foty/kot2.gif);
+	list-style-postion:inside;
+	font-family:Helvetica;
+	}
+li.t3{
+	list-style-image:Url(foty/kot3.gif);
+	list-style-postion:inside;
+	font-family:Helvetica;
+	}
+li.t4{
+	list-style-image:Url(foty/dzieci.gif);
+	list-style-postion:inside;
+	font-family:Helvetica;
+	}
+table.t1{
+	cursor:crosshair;
+	border:solid black 2px;
+	}
+td{
+	font-size:30px;
+	border:solid black 2px;
+	}
+div#rozmiar{
+	height:8%;
+	width:45%;
+	color:red;
+	border:green 5px solid;
+	}
 	
-	
+h6#t5{
+	padding:10px 15px 20px 25px;
+	}
+body.t1{
+	Margin:0px 10px 5px
+	}
+a.t1{
+				color:black;
+				background-color:fuchsia;
+				border:3px black ;
+				border-style:solid;
+				border-radius:5px;;
+		}
+		a.t1:hover{
+			color:yellow;
+			background-color:green;
+			border-style:dotted;
+			border-color:yellow;
+		}
+		a.t1:active{
+			color:silver;
+			background-color:black;
+			border-style:dashed;
+			border-color:silver;
+		}
+		a.t2{
+				color:black;
+				background-color:yellow;
+				border:3px black ;
+				border-style:double;
+				border-radius:5px;
+				background-clip:content-box;
+				padding:10px;
+		}
+		a.t2:hover{
+			color:aqua;
+			background-color:green;
+			border-style:outset;
+			border-color: aqua;
+		}
+		a.t2:active{
+			color:white;
+			background-color:red;
+			border-color: white;
+			border-style:dashed;
+		}
 	</style>
 </head>
-<body >
+<body class="t1">
 <div style="background-color:grey">
 	<h1><center>Projektowanie Stron Internetowych-Dawid Szatkowski</center></h1>
 </div>
@@ -328,7 +375,8 @@ h2#ramka3b{
 			TŁO: none; TEKST: czarny, ODSTĘP: 5px, SZEROKOŚĆ: 33%; border: 50 px solid;
 			border-image: url(foty/gwiazdka1.gif) 20 round;
 		</h2>
-
+		</br></br></br>
+		<h2>Zadanie 5</h2>
 		<a class="t1" href="https://www.onet.pl/" target="new">Onet</a>
 		<a class="t1" href="https://www.wp.pl/" target="new">WP</a>
 		<a class="t1" href="https://tsi-pai.cba.pl/" target="new">STRONA PSI</a>
@@ -336,6 +384,62 @@ h2#ramka3b{
 		<a class="t2" href="https://www.google.com/" target="new">Google</a>
 		<a class="t2" href="https://zspm.pl/" target="new">ZSPM</a>
 		<a class="t2" href="https://tsi-pai.cba.pl/" target="new">STRONA PSI</a>	
+		
+		
+		<h2>Zadanie 6</h2>
+		
+		<ul class="t1">PIĘĆ ZALET PRZEDMIOTU TSI:
+		<li>Szybkie Komputery
+		<li>Wysokiej jakości pracownia
+		<li>Poznajesz język Html Css
+		<li>Szybki Internet
+		<li>Równomierne rozłożenie na cały tydzień</li>
+		</ul>
+		
+		
+		</br></br>
+		
+		
+		<ol class="t1">TRZY WADY PRZEDMIOTU TSI:
+		<li>Bardzo Ciężkie Sprawdziany
+		<li>Za mało godzin w tygodniu
+		<li>Więcej minusów nie ma
+		</ol>
+		
+		</br></br>
+	
+		<ol class="t2">Co musze zrobić przed świętami bożego narodzenia
+		<li class="t3">Kupić prezenty</li>
+		<li class="t4">Kupić Karpia</li>
+		<li class="t3">Kupić Opłatki</li>
+		<li>Posprzątać
+		<li>Ugotować 12 Dań
+		<li> JAK ZMIENIC WIELKOŚĆ GIF: wpisz w google gif resize -> https://ezgif.com/resize
+		</ol>
+		</br></br>
+		<h2>Zadanie 7</h2>
+		<table class="t1">
+		<tr>
+		<td>1</td><td>2</td>
+		</tr>
+		</table>
+		
+		</br></br>
+		<div id="rozmiar"><H2>Zadanie 8 </h2>
+		Ustawienie wysokości (8%) i szerokości (45%) dla elementu div#rozmiar</br>
+		Kolor i rodzaj obramowania dobierz samodzielnie</br>
+		div#rozmiar { height: 8%; width: 45%; border: ...........; }</br>
+		</div>
+		</br></br>
+		
+		<h6 id="t5"><h2>Zadanie 9</h2>
+		Ustawienie marginesów dla strony: górny 0 px, prawy i lewy 10 px, dolny 5px,</br>
+		Dodanie odstępu do elementu - ZADANIA VIII - (padding): górny 10 px, prawy 15px, lewy 20 px, dolny 25px,</br>
+		</h6>
+		
+		
+		
+		
 		
 		
 		
