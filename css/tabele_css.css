@@ -1,0 +1,172 @@
+h6{Font:700;
+color:black}
+
+
+
+table.t1{border:5px blue solid;
+border-collapse:collapse;
+}
+
+td.t1{border:5px blue solid;
+}
+
+tr.t1{border:5px blue solid;
+}
+
+table.t2{border:3px;
+border-collapse:collapse;
+width:80%;
+}
+
+td.t2{border:5px red solid;
+}
+
+tr.t2{border:5px red solid;
+background-color:grey;
+}
+
+td.t3{border:5px blue solid;
+}
+
+tr.t3{border:5px blue ;
+background-color:yellow;
+}
+table.dwa{width:80%;
+border-collapse:collapse;
+border-top:1px aqua solid;
+}
+tr.t4{
+padding:8px;
+border-top:3px aqua solid;
+border-color:aqua;
+}
+td.t4{
+padding:8px;
+border-top:1px aqua solid;
+}
+tr.t4:hover{
+background-color:aqua;
+}
+td.t4:hover{
+background-color:aqua;
+}
+table.trzy{width:80%;
+border-collapse:collapse;
+border-top:1px aqua solid;
+}
+tr.trzy{
+padding:8px;
+border-top:3px aqua solid;
+border-color:aqua;
+}
+td.trzy{
+padding:8px;
+border-top:1px aqua solid;}
+
+table.trzy1{width:80%;
+border-collapse:collapse;
+border-top:1px red dotted;
+}
+tr.trzy1{
+padding:8px;
+border-top:3px red dotted;
+border-color:aqua;
+}
+td.trzy1{
+padding:8px;
+border-top:1px red dotted;}
+tr.trzy:nth-child(even):hover{
+	background-color: purple;
+}
+tr.trzy:nth-child(odd):hover {
+	background-color: gray;
+}
+td.trzy1:hover{
+background-color: yellow;}
+
+td.trzy2:hover{
+background-color: blue;}
+
+td.trzy3:hover{
+background-color: purple;}
+
+td.trzy4:hover{
+background-color: gray;}
+
+table.cztery{
+width:50%;
+border:1px black solid;
+}
+
+th.cztery{
+color:red;
+background-color:yellow;
+border:1px gray solid;
+}
+
+td.cztery{
+	border:1px gray solid;
+}
+
+
+table.piec{
+width:50%;
+}
+
+th.piec{
+color:red;
+background-color:yellow;
+border:1px black solid;
+}
+td.piec{
+border:1px black solid;
+}
+
+table.noc{
+	border:10px red solid;
+	background-color:light_gray;
+}
+th.noc{
+	border:10px outset gray;
+	color:blue;
+	background-color:light_gray;
+	padding:10px;
+}
+
+td.noc{
+	border:5px outset maroon;
+	color:blue;
+	background-color:light_gray;
+	padding:10px;
+}
+table.pink{
+	border-collapse:collapse;
+	border:1px black solid;
+}
+td.pink{
+	border-collapse:collapse;
+	border:1px light_gray solid;
+	color:blue;
+	padding:5px;
+}
+th.pink{
+	border-collapse:collapse;
+	border:1px black solid;
+}
+td.cap{
+color:white;
+background-color:black;
+border:1px black solid;
+
+}
+
+th.cap{
+color:blue;
+background-color:light_blue;
+border:1px black solid;
+
+}
+table.cap{
+background-color:light_blue;
+border:1px black solid;
+}

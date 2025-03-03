@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+<title>Dawid Szatkowski-Psi</title>
+<link rel="stylesheet" href="css/tabele_css.css">
+</head>
+
+<body>
+<div style="background-color:grey">
+	<h1><center>Projektowanie Stron Internetowych-Dawid Szatkowski</center></h1>
+</div>
+<div style="float:left;width:30%;height:550px">
+	<h3>HTML</h3>
+		<a href="index.html">Strona Główna</a></br>
+		<a href="kolory.html">Kolory</a></br>
+		<a href="nauczyciele.html">Nauczyciele</a></br>
+		<a href="zdjecia.html">Zdjęcia</a></br>
+		<a href="tabele.html">Tabele</a></br>
+		<a href="tabela_ocena.html">Tabele Na Ocene</a></br>
+		<a href="Listy.html">Listy</a></br>
+		<a href="DawidSzatkowski_lista.html">Listy na Ocene</a></br>
+		<a href="mapa.html">Mapa Odsyłaczy</a></br>
+		<a href="formularz.html">Formularz</a></br>
+		<a href="formularz_ocena.html">Formularz Ocena</a></br>
+		<a href="canvas.html">canvas</a></br>
+	
+	<h3>CSS</h3>
+	<a href="wlasciwosci_css.html">Właściwości CSS</a></br>
+	<a href="identyfikator.html">Identyfikator</a></br>
+	
+	<h3>Dokument</h3>
+		<a href="doc/Grupa2C.docx" target="new">Lista Grupy 2 w 2C</a></br>
+		<a href="doc/wydatki2c.xlsx" target="new">Wydatki Grupa 2 w 2C</a><br/>
+	<h3>Linki</h3>
+		<a href="https://www.google.com"><img src="foty/google.jpg" width="100px"></a><br/>
+		<a href="https://www.tsi-pai.cba.pl"><img src="foty/psi.jpg" width="100px"></a>
+	<h3>Multimedia</h3>
+	<a href="multimedia.html">Multimedia</a><br />
+		
+	</div>
+	<div style="float:right;width:70%">
+		<h3>W tym miejscu znajduje się treść strony<h3>
+	<h6>Zadanie 1</h6>
+	<table class="t1">
+		<tr class="t1">
+			<td class="t1">komórka 1-1</td>
+			<td class="t1">komórka 1-2</td>
+			<td class="t1">komórka 1-3</td>
+		</tr>
+		<tr class="t1">
+			<td class="t1">komórka 2-1</td>
+			<td class="t1">komórka 2-2</td>
+			<td class="t1">komórka 2-3</td>
+		</tr>
+		<tr class="t1">
+			<td class="t1">komórka 3-1</td>
+			<td class="t1">komórka 3-2</td>
+			<td class="t1">komórka 3-3</td>
+		</tr>
+	</table>
+	<h6>Zadanie 2</h6>
+		<table class="t2">
+			<tr class="t2">
+				<td class="t2">Nr</td>
+				<td class="t2">Nazwisko i Imie</td>
+				<td class="t2">Obecnosc</td>
+			</tr>
+			<tr class="t3">
+				<td class="t3">1</td>
+				<td class="t3">Anna Nowak</td>
+				<td class="t3">Tak</td>
+				</tr>
+			<tr class="t3">
+				<td class="t3">2</td>
+				<td class="t3">Jan Kowalski</td>
+				<td class="t3">Tak</td>
+			</tr>
+			<tr class="t3">
+				<td class="t3">3</td>
+				<td class="t3">Krzysztof Kwiatkowski</td>
+				<td class="t3">Tak</td>
+			</tr>
+			<tr class="t3">
+				<td class="t3">4</td>
+				<td class="t3">Filip</td>
+				<td class="t3"></td>
+			</tr>
+			<tr class="t3">
+				<td class="t3">5</td>
+				<td class="t3">Maja</td>
+			</tr>
+		</table>
+	<h6>3 Utwórz tabelę z klasa "dwa" . 
+	Tabela ma złaczone krawędzie w tabeli. 
+	Szerokosć 80 %. 
+	W komórkach th i td jest ustawiony odstęp na 8 px oraz border-top w kolorze aqua z 1 px.
+	Dodatkowo ZASTOSOWAŁAM PSEUDOKLASĘ :hover , która ma tło w kolorze aqua.
+	Po najechaniu mysza zobaczysz efekt.</h6>
+	<table class="dwa">
+		<tr class="t4">
+			<td class="t4">Pierwsze imie</td>
+			<td class="t4">Nazwisko</td>
+			<td class="t4">Zarobek na godz.</td>
+		</tr>
+		<tr class="t4">
+			<td class="t4">Peter</td>
+			<td class="t4">Griffin</td>
+			<td class="t4">100$</td>
+		</tr>
+		<tr class="t4">
+			<td class="t4">Lois</td>
+			<td class="t4">Griffin</td>
+			<td class="t4">150$</td>
+		</tr>
+		<tr class="t4">
+			<td class="t4">Joe</td>
+			<td class="t4">Swanson</td>
+			<td class="t4">300$</td>
+		</tr>
+		<tr class="t4">
+			<td class="t4">Cleveland</td>
+			<td class="t4">brown</td>
+			<td class="t4">250$</td>
+		</tr>
+	</table>
+	
+	<h6>Zadanie 4,5 Utwórz tabelę z klasa "trzy" (kopiujac tabelę "dwa")
+Skopiuj wszystkie deklaracje z tabeli z klasa "dwa" i zamień je na "trzy".
+Dodatkowo w wierszu dodaj KOLOR fioletowy WIERSZY PARZYSTYCH
+oraz kolor szary WIERSZY NIEPARZYSTYCH po najechaniu mysza na wiersze.
+Po najechaniu mysza zobaczysz efekt.</h6>
+	
+	<table class="trzy">
+		<tr class="trzy">
+			<td class="trzy">Pierwsze imie</td>
+			<td class="trzy">Nazwisko</td>
+			<td class="trzy">Zarobek na godz.</td>
+		</tr>
+		<tr class="trzy">
+			<td class="trzy">Peter</td>
+			<td class="trzy">Griffin</td>
+			<td class="trzy">100$</td>
+		</tr>
+		<tr class="trzy">
+			<td class="trzy">Lois</td>
+			<td class="trzy">Griffin</td>
+			<td class="trzy">150$</td>
+		</tr>
+		<tr class="trzy">
+			<td class="trzy">Joe</td>
+			<td class="trzy">Swanson</td>
+			<td class="trzy">300$</td>
+		</tr>
+		<tr class="trzy">
+			<td class="trzy">Cleveland</td>
+			<td class="trzy">brown</td>
+			<td class="trzy">250$</td>
+		</tr>
+	</table>
+		</br></br>
+	<table class="trzy1">
+		<tr class="trzy1">
+			<td class="trzy1">Pierwsze imie</td>
+			<td class="trzy2">Nazwisko</td>
+			<td class="trzy1">Zarobek na godz.</td>
+		</tr>
+		<tr class="trzy1">
+			<td class="trzy3">Peter</td>
+			<td class="trzy4">Griffin</td>
+			<td class="trzy3">100$</td>
+		</tr>
+		<tr class="trzy1">
+			<td class="trzy3">Lois</td>
+			<td class="trzy4">Griffin</td>
+			<td class="trzy3">150$</td>
+		</tr>
+		<tr class="trzy1">
+			<td class="trzy3">Joe</td>
+			<td class="trzy4">Swanson</td>
+			<td class="trzy3">300$</td>
+		</tr>
+		<tr class="trzy1">
+			<td class="trzy3">Cleveland</td>
+			<td class="trzy4">brown</td>
+			<td class="trzy3">250$</td>
+		</tr>
+	</table>	
+	<h6>Zadanie 6 Utwórz tabelę z klasa "cztery", składajaca się z 2 wierszy i 2 kolumn. Szerokosć 50 %
+Tylko główna czesć tabeli ma obramowanie: table { 1px solid czarne }.
+th w tabeli ma klasę - deklaracja czcionki w kolorze czerwonym oraz tła żółtego.
+W formie przypomnienia - aby th i td mialo obramowanie należałoby je zadeklarować.</h6>
+	
+	<table class="cztery">
+		<tr class="cztery">
+			<th class="cztery">1</th>
+			<th class="cztery">2</th>
+		</tr><tr class="cztery">
+			<td class="cztery">a</td>
+			<td class="cztery">b</td>
+		</tr>
+		</table></br></br>
+		
+		
+		<table class="piec">
+		<tr class="piec">
+			<th class="piec">|</th>
+			<th class="piec">||</th>
+			</tr><tr class="piec">
+			<td class="piec">i</td>
+			<td class="piec">ii</td>
+		</tr>
+		</table></br></br>
+	
+	<table class="noc">
+		<tr class="noc">
+			<th class="noc">Pracownik</th>
+			<th class="noc">Data</br> rozpoczecia</th>
+			<th class="noc">Data</br> zakonczenia</th>
+			<th class="noc">Staz</th>
+		</tr>
+		<tr class="noc">
+			<td class="noc">Bartosz R.</td>
+			<td class="noc">12/04/2000</td>
+			<td class="noc">02/02/2011</td>
+			<td class="noc">11</br>lat</td>
+		</tr>
+		<tr class="noc">
+			<td class="noc">Tomasz D</td>
+			<td class="noc">07/06/2009</td>
+			<td class="noc">do teraz</td>
+		</tr>
+	</table>
+	<h6> 9. Utwórz tabelę z klasa "pink".
+Wprowadz collapse w deklaracji krawędzi komórek.
+Należy wstawić pusta wyswietlajaca się komórkę.</h6>
+	
+	<table class="pink">
+	<tr class="pink">
+		<td class="pink">Pracownik</td>
+		<td class="pink">Data rozpoczęcia</td>
+		<td class="pink">Data zakonczenia</td>
+	</tr><tr class="pink">
+		<th class="pink">Bartosz R.</th>
+		<th class="pink">12/04/2000</th>
+		<th class="pink">02/02/2011</th>
+	</tr><tr class="pink">
+		<th class="pink">Tomasz D</th>
+		<th class="pink">07/06/2009</th>
+		<th class="pink">do teraz</th>
+	</tr>><tr class="pink">
+		<th class="pink">Stefan H</th>
+		<th class="pink">11/09/2012</th>
+		<th class="pink"></th>
+	</tr>
+	</table>
+	<h6>10. Zastosowano caption - odswież w Mozilla Firefox. Wykonaj podobna tabelę.</h6>
+	<table class="cap">
+		<tr class="cap">
+			<td class="cap">Schemat</br>Kontroli</br>Pracowników</td>
+		</tr>
+	</table>
+	<table class="cap">
+	</tr><tr class="cap">
+			<th class="cap">Pracownik</th>
+			<th class="cap">Data rozpoczecia</th>
+			<th class="cap">Data zakonczenia</th>
+	</tr><tr class="cap">
+			<td class="cap">Bartosz R</td>
+			<td class="cap">12/04/2000</td>
+			<td class="cap">02/02/2011</td>
+	</tr><tr class="cap">
+			<td class="cap">Tomasz D</td>
+			<td class="cap">07/06/2009</td>
+			<td class="cap">do teraz</td>
+	</tr>
+	</table>
+		
+	
+	</div>
+	<div style="background-color:grey;clear:both"><center>&copy;D.S,September2024</center><div>
+</body>
+</html> 
